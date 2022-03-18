@@ -14,11 +14,12 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: #040404 url("https://user-images.githubusercontent.com/66039545/159009459-c77a48b9-026d-4aa4-8f94-370d7c9767d5.jpg") top right no-repeat;
+    background: #040404 url("https://user-images.githubusercontent.com/66039545/159013675-685d7c80-039e-41ab-8e1a-02fee891c4a9.jpeg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
     top: 0;
     height: 100vh;
     z-index: -1;
+    
 }
