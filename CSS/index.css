@@ -38,6 +38,10 @@ th {
     color: white;
 }
 
+.table {
+    display: none;
+}
+
 #store {
     display: none;
     text-align: center;
@@ -88,3 +92,5 @@ h5 em {
 .reset-btn {
 display: none;
 }
+
+
