@@ -73,7 +73,7 @@ h4 {
 }
 
 .card-footer {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .more-info h5 {
@@ -83,4 +83,8 @@ h4 {
 h5 em {
     color: #85311b;
     font-size: 20px;
+}
+
+.reset-btn {
+display: none;
 }

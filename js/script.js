@@ -72,6 +72,7 @@ $(document).ready(function () {
             $(".btn.deliver").hide();
             $(".btn.pickup").hide();
             $("#store").show()
+            $(".reset-btn").show();
         });
 
         $(".btn.dispatch").click(function () {
@@ -80,6 +81,7 @@ $(document).ready(function () {
             $(".more-info h4").show();
             $(".more-info h4 span").html(location);
             $(".more-info .location").show();
+            $(".reset-btn").show();
         });
 
 
@@ -90,3 +92,7 @@ $(document).ready(function () {
 $("location").on("submit", function (e) {
     e.preventDefault();
 });
+
+function refreshPage(){
+    window.location.reload();
+} 
