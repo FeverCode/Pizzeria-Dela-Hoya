@@ -18,6 +18,7 @@
     <!-- JS Sripts-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/JS/map.js"></script>
     <script src="./JS/script.js"></script>
 </head>
 
@@ -139,10 +140,12 @@
 
                     <form class="location text-center" name="location" onsubmit="return false">
                         <label for="location"></label>
-                        <input type="text" class="mt-3 mb-3" size="30" placeholder="Enter you address?" required /> <br>
+                        <input id="pac-input" class="controls" type="text" placeholder="Search Box" required/> <br>
+                        <div id="map"></div>
                         <iframe loading="lazy" allowfullscreen
                             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBekeUdjjZXgAVVKzB4GQlORCSji60jz7c&q=Space+Needle,Seattle+WA">
-                        </iframe> <br>
+                        </iframe>
+                        <br>
                         <button class="btn btn-info dispatch mt-2" type="submit">
                             Dispatch Rider
                         </button>
@@ -180,6 +183,10 @@
                 Reserved. Pizzeria Dela Hoya.</p>
         </footer>
     </div>
+     <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initAutocomplete&libraries=places&v=weekly&channel=2"
+      async
+    ></script>
 </body>
 
 </html>
