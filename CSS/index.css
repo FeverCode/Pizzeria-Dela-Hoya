@@ -33,3 +33,33 @@ h2 {
     cursive;
     color: #85311b;
 }
+
+th {
+    color: white;
+}
+
+#store {
+    display: none;
+    text-align: center;
+}
+
+.pizza-buttons {
+    display: none;
+}
+
+.more-info {
+    display: none;
+}
+
+.more-info h4 {
+    display: none;
+}
+
+.btn.deliver {
+    display: none;
+}
+
+.btn.pickup {
+    display: none;
+}
+
