@@ -20,7 +20,7 @@
 
 <P>Below is the live link to the project</P>
 
-[Pizzeria Dela Hoya]()
+[Pizzeria Dela Hoya](https://fevercode.github.io/Pizzeria-Dela-Hoya/)
 
 ## Installation
 * In terminal `git clone https://github.com/FeverCode/Pizzeria-Dela-Hoya` to your desired local folder.
