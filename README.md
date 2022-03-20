@@ -13,7 +13,7 @@
 + [Licence](#licence)
 + [Authors Info](#authors-info)
 
-![Screenshot]()
+![Screenshot](https://github.com/FeverCode/Pizzeria-Dela-Hoya/blob/main/Pizzeria-Screenshot.png)
 ## Description
 <p>Pizzeria Dela Hoya is a web application where your customers order different sizes of pizzas with one or more toppings. 
 </p>
