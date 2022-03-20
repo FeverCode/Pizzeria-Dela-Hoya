@@ -48,6 +48,7 @@ $(document).ready(function () {
             $(".btn.more-pizza").hide();
             $(".btn.check-out").hide();
             $(".more-info").show();
+            $("table").hide();
             $("#store").hide()
             $(".btn.deliver").show();
             $(".btn.pickup").show();
@@ -76,10 +77,19 @@ $(document).ready(function () {
         $(".btn.dispatch").click(function () {
 
             var location = $(".more-info .location input").val();
-            $(".more-info h4").show();
-            $(".more-info h4 span").html(location);
-            $(".more-info .location").show();
-            $(".reset-btn").show();
+
+            if (location === '') {
+                alert("Please Enter Delivery Location!");
+            } else {
+                $(".more-info h4 span").html(location); {
+                    $(".more-info h4").show();
+                    $(".location").hide();
+                    $("table").show();
+                    $(".reset-btn").show();
+                }
+            }
+
+
         });
 
 
@@ -91,6 +101,6 @@ $("location").on("submit", function (e) {
     e.preventDefault();
 });
 
-function refreshPage(){
+function refreshPage() {
     window.location.reload();
-} 
+}

@@ -22,10 +22,10 @@
 </head>
 
 <body>
-    <div class="container bg-gradient">
+    <div class="container ">
         <div class="row">
             <div class="col">
-                <h1 class="text-center text-uppercase fw-bolder">
+                <h1 class="text-center text-uppercase mt-3 fw-bolder bg-gradient">
                     Pizzeria Dela Hoya
                 </h1>
                 <h2 class="text-center fw-bold">Hand tossed Italian goodness</h2>
@@ -44,7 +44,7 @@
                         <h5 class="card-title text-dark">Pizza</h5>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">It's not just pizza but also a taste of greatness made by top
+                        <small class="text-muted">Pizza with a taste of greatness made by top
                             notch Italian chefs
                         </small>
                     </div>
@@ -98,34 +98,39 @@
         <div class="d-flex justify-content-center">
             <input class="btn btn-primary order mx-auto mt-5" type="submit" value="Place Order" />
         </div>
-        <table class="table mt-3 bg-info">
-            <h2 class="text-center mt-4">Your Order Details</h2>
-            <thead>
-                <tr>
-                    <th scope="col">Order No.</th>
-                    <th scope="col">Pizza Size</th>
-                    <th scope="col">Crust</th>
-                    <th scope="col">Toppings</th>
-                    <th scope="col">Total</th>
-                </tr>
-            </thead>
-            <tbody id="pizza">
-                <tr>
-                    <th scope="row">1</th>
-                    <td id="size"></td>
-                    <td id="crust"></td>
-                    <td id="toppings"></td>
-                    <td id="total"></td>
-                </tr>
-            </tbody>
-        </table>
+
+        <section>
+            <div class="container">
+                <table class="table mt-3 bg-info">
+                    <h2 class="text-center mt-4">Your Order Details</h2>
+                    <thead>
+                        <tr>
+                            <th scope="col">Order No.</th>
+                            <th scope="col">Pizza Size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Toppings</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pizza">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td id="size"></td>
+                            <td id="crust"></td>
+                            <td id="toppings"></td>
+                            <td id="total"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
         <div class="pizza-buttons">
             <div class="text-center">
                 <button class="btn btn-info more-pizza" type="submit">
                     Add another pizza
                 </button>
-                <div class="more-info mt-5 ">
+                <div class="more-info mt-3">
                     <h3 class="fw-bolder">Your Total is Kes. <span></span></h3>
                     <h5 class="mt-4">
                         Would you like you pizza to be delivered? You will incur an
@@ -135,14 +140,15 @@
                     <form class="location text-center" name="location" onsubmit="return false">
                         <label for="location"></label>
                         <input type="text" class="mt-3 mb-3" size="30" placeholder="Enter you address?" required /> <br>
-                        <iframe  loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBekeUdjjZXgAVVKzB4GQlORCSji60jz7c&q=Space+Needle,Seattle+WA">
+                        <iframe loading="lazy" allowfullscreen
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBekeUdjjZXgAVVKzB4GQlORCSji60jz7c&q=Space+Needle,Seattle+WA">
                         </iframe> <br>
                         <button class="btn btn-info dispatch mt-2" type="submit">
                             Dispatch Rider
                         </button>
                     </form>
 
-                    <h4 class="mt-5">
+                    <h4 class="mt-2">
                         We are preparing your order! <br> Our rider will arrive to
                         <span>?</span> in 20 mins.
                     </h4>
@@ -152,8 +158,8 @@
                 <button class="btn btn-info pickup mt-3" type="submit">Pickup</button>
             </div>
 
-            <div>
-                <button class="btn btn-info check-out float-end" type="submit">
+            <div class="d-grid d-flex justify-content-center mt-3">
+                <button class="btn btn-info check-out" type="submit">
                     Checkout
                 </button>
             </div>
@@ -162,10 +168,10 @@
             Please pick your order from our store on 2nd Street Uptown
         </h2>
     </div>
-    <div class="d-grid d-flex justify-content-center mt-3">
+    <div class="d-grid d-flex justify-content-center mt-2">
         <button type="reset" class="reset-btn btn-info" onClick="refreshPage()">Order Again</button>
     </div>
-    <div class="card-footer text-center bg-transparent">
+    <div class="text-center bg-transparent mt-5">
         <p>Pizzeria Dela Hoya</p>
         <p>2nd Street Uptown</p>
         <p>2022</p>
