@@ -70,6 +70,7 @@ $(document).ready(function () {
             $(".more-info h5").hide();
             $(".btn.deliver").hide();
             $(".btn.pickup").hide();
+            $("table").show();
             $("#store").show()
             $(".reset-btn").show();
         });

@@ -68,7 +68,7 @@ th {
 }
 
 .more-info h3 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 h4 {
@@ -128,7 +128,7 @@ body {
     border: 0;
     border-radius: 2px;
     box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
-    margin: 10px;
+    /* margin: 10px; */
     padding: 0 0.5em;
     font: 400 18px Roboto, Arial, sans-serif;
     overflow: hidden;
@@ -136,10 +136,10 @@ body {
     padding: 0;
 }
 
-#pac-container {
+/* #pac-container {
     padding-bottom: 12px;
     margin-right: 12px;
-}
+} */
 
 .pac-controls {
     display: inline-block;
@@ -157,8 +157,6 @@ body {
     font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
-    margin-left: 12px;
-    padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     /* width: 400px; */
 }
