@@ -41,7 +41,7 @@ $(document).ready(function () {
 
             var newEntry = '<tr><th scope="row">' + newOrder.orderNo + '</th><td id="size">' + $(".size option:selected").text() + " - " + newOrder.size + '</td><td id="crust">' + $(".crust option:selected").text() + " - " + newOrder.crust + '</td><td id="toppings">' + $(".toppings option:selected").text() + " - " + newOrder.toppings + '</td><td id="total">' + newOrder.total + '</td></tr>'
 
-            $("#pizza").append(newEntry);
+            $("#newPizza").append(newEntry);
         });
 
         $(".btn.check-out").click(function () {
